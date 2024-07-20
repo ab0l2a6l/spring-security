@@ -1,4 +1,4 @@
-package com.example.springsecurityv1.entity;
+package com.example.springsecurityv1.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -13,7 +13,6 @@ public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
     private String username;
     private String password;
     private String role;
