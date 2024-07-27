@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        <span th:text="${user.getUsername()}"></span>
+        <span th:text="${user.getAuthorities()}"></span>
+        <span th:text="${user.getPassword()}"></span>
+        <span th:text="${user.getRole()}"></span>
+    </p>
+</body>
+</html>
